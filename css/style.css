@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FD5D14;
+    --primary: #fe7200;
     --secondary: #FDBE33;
     --light: #F4F6F8;
     --dark: #040F28;
@@ -178,16 +178,13 @@
 }
 
 .portfolio-title {
-    position: absolute;
+    position: relative;
     display: flex;
+    bottom :30px;
     flex-direction: column;
-    justify-content: center;
-    
-    padding: 10px 20px;
-    right: 10px;
-    left: 10px;
-    bottom: -10%;
     background: #FFFFFF;
+    left: 5%;
+    width: 90%;
     z-index: 3;
 }
 
